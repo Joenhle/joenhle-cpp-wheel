@@ -70,7 +70,7 @@ TEST(lock_free_queue, multi_producer_multi_consumer) {
 }
 
 
-int main(int argc,char **argv){
-    testing::InitGoogleTest(&argc,argv);
-    return RUN_ALL_TESTS();
-}
+//int main(int argc,char **argv){
+//    testing::InitGoogleTest(&argc,argv);
+//    return RUN_ALL_TESTS();
+//}
