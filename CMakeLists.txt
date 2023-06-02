@@ -21,3 +21,9 @@ add_executable(client_broker_test test/udp/client_broker_test.cpp
         test/udp/client_broker_test.cpp)
 add_executable(server_broker_test test/udp/server_broker_test.cpp
         test/udp/server_broker_test.cpp)
+add_executable(select_server io-multiplexing/select/server.cpp)
+add_executable(select_client io-multiplexing/select/client.cpp)
+add_executable(poll_server io-multiplexing/poll/server.c)
+add_executable(poll_client io-multiplexing/poll/client.c)
+add_executable(epoll_client io-multiplexing/epoll/client.c)
+add_executable(epoll_server io-multiplexing/epoll/server.c)
